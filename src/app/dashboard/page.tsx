@@ -1,4 +1,4 @@
-'use client';
+'use client'; // Ensure this is at the very top
 
 // Import necessary dependencies
 import { useState, useEffect } from 'react';
@@ -6,10 +6,11 @@ import axios from 'axios';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 
 // Import custom components
-import Header from '@/components/dashboard/Header';
-import StatCardGrid from '@/components/dashboard/StatCardGrid';
-import ChartSection from '@/components/dashboard/ChartSection';
-import MapSection from '@/components/dashboard/MapSection';
+import dynamic from 'next/dynamic'; 
+const Header = dynamic(() => import('@/components/dashboard/Header'), { ssr: false });
+const StatCardGrid = dynamic(() => import('@/components/dashboard/StatCardGrid'), { ssr: false });
+const ChartSection = dynamic(() => import('@/components/dashboard/ChartSection'), { ssr: false });
+const MapSection = dynamic(() => import('@/components/dashboard/MapSection'), { ssr: false });
 
 // Register the required chart.js components
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
