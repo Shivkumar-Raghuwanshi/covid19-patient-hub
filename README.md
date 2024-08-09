@@ -2,7 +2,7 @@
 
 Covid19 Patient Hub is a comprehensive dashboard application designed to provide real-time insights and visualization of the COVID-19 pandemic. It includes a patient management system to streamline the handling of COVID-19 patients, as well as advanced data visualization tools powered by Chart.js and React-Leaflet.
 ## Watch the video by clicking on the thumbnail below:
-[![API Endpoints](https://img.youtube.com/vi/QT5WMoYbWpQ/maxresdefault.jpg)](https://www.youtube.com/embed/QT5WMoYbWpQ?si=c7BNcL-kv7TiprMA)
+[![API Endpoints](https://img.youtube.com/vi/QT5WMoYbWpQ/maxresdefault.jpg)](https://www.youtube.com/embed/QT5WMoYbWpQ?si=U2ukBb2TzSv_ysk8)
 
 ## Table of Contents
 
